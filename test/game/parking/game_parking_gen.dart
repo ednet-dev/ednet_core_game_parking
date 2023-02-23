@@ -1,6 +1,6 @@
 // test/game/parking/game_parking_gen.dart 
  
-import "package:dartling/dartling.dart"; 
+import "package:ednet_core/ednet_core.dart"; 
  
 import "package:game_parking/game_parking.dart"; 
  

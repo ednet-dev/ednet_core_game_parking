@@ -36,7 +36,7 @@ library game_parking_app;
 import 'dart:html';
 import 'dart:async';
 
-import 'package:dartling/dartling.dart';
+import 'package:ednet_core/ednet_core.dart';
 
 import 'package:game_parking/game_parking.dart';
 
