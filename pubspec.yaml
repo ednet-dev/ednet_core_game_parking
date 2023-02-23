@@ -1,7 +1,7 @@
 name: game_parking
 version: 2.0.2
 
-description: Game Parking is a Rush Hour game. dartling is a domain model framework.
+description: Game Parking is a Rush Hour game. EDNetCore is a domain model framework.
 homepage: http://ondart.me/
 documentation: http://goo.gl/LDhRwm
 environment:

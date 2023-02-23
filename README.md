@@ -5,13 +5,13 @@ A game in Dart with a model based on the
 The goal is to exit the red car from the parking,
 by moving the selected car with a click before of after the selected car.
 
-Dependent on [EDNetCore](http://pub.dartlang.org/packages/dartling).
+Dependent on [EDNetCore](https://github.com/ednet-dev/ednet_core).
 
 ## More Details
 
-[**Parking Game in dartling**](http://goo.gl/LDhRwm)
+[**Parking Game in EDNetCore**](http://goo.gl/LDhRwm)
 
-[**dartling: Domain Model Framework**](http://goo.gl/Fd08zZ)
+[**ednet_core: Domain Model Framework**](http://goo.gl/Fd08zZ)
 
 [*Learning Dart*](http://learningdart.org/) 
 

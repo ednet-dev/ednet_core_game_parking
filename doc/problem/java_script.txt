@@ -10,15 +10,15 @@ Did you forget to add an import?
 Did you forget to add an import?
 @MirrorsUsed(targets: 'dart.dom.html.window, '
                       ^^^^^^^^^^^^^^^^^^^^^^^^^
-../../git/dart/game/game_parking/web/packages/dartling/domain/model/entity.dart:547:17: Hint: The class "ConceptEntity" overrides "operator==", but not "get hashCode".
+../../git/dart/game/game_parking/web/packages/ednet_core/domain/model/entity.dart:547:17: Hint: The class "ConceptEntity" overrides "operator==", but not "get hashCode".
   bool operator ==(Object other) {
 
                 ^^
-../../git/dart/game/game_parking/web/packages/dartling/domain/model/oid.dart:45:17: Hint: The class "Oid" overrides "operator==", but not "get hashCode".
+../../git/dart/game/game_parking/web/packages/ednet_core/domain/model/oid.dart:45:17: Hint: The class "Oid" overrides "operator==", but not "get hashCode".
   bool operator ==(Object other) {
 
                 ^^
-../../git/dart/game/game_parking/web/packages/dartling/domain/model/id.dart:109:18: Hint: The class "Id" overrides "operator==", but not "get hashCode".
+../../git/dart/game/game_parking/web/packages/ednet_core/domain/model/id.dart:109:18: Hint: The class "Id" overrides "operator==", but not "get hashCode".
    bool operator ==(Object other) {
 
                  ^^

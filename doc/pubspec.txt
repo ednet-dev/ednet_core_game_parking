@@ -3,38 +3,38 @@ pubspec.yaml
 name: game_parking
 version: 2.0.2
 author: Dzenan Ridjanovic <dzenanr@gmail.com>
-description: Game Parking is a Rush Hour game. dartling is a domain model framework.
+description: Game Parking is a Rush Hour game. EDNetCore is a domain model framework.
 homepage: http://ondart.me/
 documentation: http://goo.gl/LDhRwm
 environment:
   sdk: '>=1.10.0 <2.0.0'
 dependencies:
   browser: ^0.10.0+2 
-  dartling: ^2.0.2
+  ednet_core: ^2.0.2
   
 
 name: game_parking
 version: 2.0.1
 author: Dzenan Ridjanovic <dzenanr@gmail.com>
-description: Game Parking is a version of the Rush Hour game. dartling is a domain model framework.
+description: Game Parking is a version of the Rush Hour game. EDNetCore is a domain model framework.
 homepage: http://ondart.me/
 documentation: http://goo.gl/LDhRwm
 environment:
   sdk: '>=1.9.3 <2.0.0'
 dependencies:
   browser: '>=0.10.0 <0.11.0'
-  dartling:
+  ednet_core:
     git: https://github.com/ednet-dev/ednet_core.git
 
 dependencies:
   browser: '>=0.10.0 <0.11.0'
-  dartling: '>=2.0.1 <3.0.0'
+  ednet_core: '>=2.0.1 <3.0.0'
   
 dependencies:
   browser: '>=0.10.0 <0.11.0'
-  dartling:
-    path: 'C:\Users\ridjanod.FSA-RIDJANOD-2\dart\model\dartling'
+  ednet_core:
+    path: 'C:\Users\ridjanod.FSA-RIDJANOD-2\dart\model\EDNetCore'
 
 dependencies:
   browser: any
-  dartling: any   
+  ednet_core: any
