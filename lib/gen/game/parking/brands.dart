@@ -2,7 +2,7 @@ part of game_parking;
  
 // lib/gen/game/parking/brands.dart 
  
-abstract class BrandGen extends ConceptEntity<Brand> { 
+abstract class BrandGen extends Entity<Brand> { 
  
   BrandGen(Concept concept) { 
     this.concept = concept;

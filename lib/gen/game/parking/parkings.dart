@@ -2,7 +2,7 @@ part of game_parking;
  
 // lib/gen/game/parking/parkings.dart 
  
-abstract class ParkingGen extends ConceptEntity<Parking> { 
+abstract class ParkingGen extends Entity<Parking> { 
  
   ParkingGen(Concept concept) { 
     this.concept = concept;
