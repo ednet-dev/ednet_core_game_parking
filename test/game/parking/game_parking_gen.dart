@@ -5,7 +5,7 @@ import "package:ednet_core/ednet_core.dart";
 import "package:game_parking/game_parking.dart"; 
  
 void genCode() { 
-  var repo = new Repo(); 
+  var repo = new Repository(); 
  
   var gameDomain = new Domain("Game"); 
   
