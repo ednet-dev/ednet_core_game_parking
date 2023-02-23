@@ -5,7 +5,7 @@ A game in Dart with a model based on the
 The goal is to exit the red car from the parking,
 by moving the selected car with a click before of after the selected car.
 
-Dependent on [dartling](http://pub.dartlang.org/packages/dartling).
+Dependent on [EDNetCore](http://pub.dartlang.org/packages/dartling).
 
 ## More Details
 

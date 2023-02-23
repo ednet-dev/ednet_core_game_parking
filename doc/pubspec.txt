@@ -24,7 +24,7 @@ environment:
 dependencies:
   browser: '>=0.10.0 <0.11.0'
   dartling:
-    git: https://github.com/dzenanr/dartling.git
+    git: https://github.com/ednet-dev/ednet_core.git
 
 dependencies:
   browser: '>=0.10.0 <0.11.0'
