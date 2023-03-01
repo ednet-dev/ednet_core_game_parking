@@ -20,7 +20,7 @@ void initGameData(GameRepo gameRepo) {
   var gameModels = gameRepo.getDomainModels(GameRepo.gameDomainCode);
 
   var gameParkingEntries =
-      gameModels.getModelEntries(GameRepo.gameParkingModelCode);
+      gameModels?.getModelEntries(GameRepo.gameParkingModelCode);
   initGameParking(gameParkingEntries);
   gameParkingEntries!.display();
   gameParkingEntries.displayJson();
