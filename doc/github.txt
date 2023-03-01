@@ -50,7 +50,6 @@ Clone a remote repository into a local repository.
 
 cd git/dart
 git clone https://github.com/ednet-dev/game_parking.git
-cd dartlero
 
 Read+Write:
 https://github.com/ednet-dev/game_parking.git
