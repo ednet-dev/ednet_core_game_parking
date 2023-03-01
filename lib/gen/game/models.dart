@@ -1,6 +1,6 @@
 part of game_parking; 
  
-// lib/gen/game/models.dart 
+// lib/gen/game/i_domain_models.dart
  
 class GameModels extends DomainModels { 
  

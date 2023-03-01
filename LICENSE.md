@@ -3,7 +3,7 @@
 [licenses](http://opensource.org/licenses/)
 [3-clause license ("New BSD License" or "Modified BSD License")](http://en.wikipedia.org/wiki/BSD_license)
 
-Copyright (c) 2023, [game_parking](https://github.com/dzenanr/game_parking) authors
+Copyright (c) 2023, [game_parking](https://github.com/ednet-dev/game_parking) authors
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:

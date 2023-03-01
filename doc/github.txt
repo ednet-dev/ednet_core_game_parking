@@ -34,12 +34,12 @@ Description:
   Model framework for educational purposes.
       
 Next steps:
-  cd git/dart/dartling_examples/game_parking
+  cd git/dart/ednet_core_examples/game_parking
   git init
   git status
   git add .
   git commit -m 'initial version'
-  git remote add origin https://github.com/dzenanr/game_parking.git
+  git remote add origin https://github.com/ednet-dev/game_parking.git
   git push -u origin master     
 
 -------------------------------------------------------------------------------
@@ -49,14 +49,14 @@ Git with Git Bash
 Clone a remote repository into a local repository.
 
 cd git/dart
-git clone https://github.com/dzenanr/game_parking.git
+git clone https://github.com/ednet-dev/game_parking.git
 cd dartlero
 
 Read+Write:
-https://github.com/dzenanr/game_parking.git
+https://github.com/ednet-dev/game_parking.git
 
 Read only:
-git://github.com/dzenanr/game_parking.git
+git://github.com/ednet-dev/game_parking.git
 
 Get the latest changes from the remote repository
 
@@ -68,7 +68,7 @@ git pull origin master
 
 Work with a local repository
 
-cd git/dart/dartling_examples/game_parking
+cd git/dart/ednet_core_examples/game_parking
 
 git status
 

@@ -2,7 +2,7 @@ pubspec.yaml
 
 name: game_parking
 version: 2.0.2
-author: Dzenan Ridjanovic <dzenanr@gmail.com>
+
 description: Game Parking is a Rush Hour game. EDNetCore is a domain model framework.
 homepage: http://ondart.me/
 documentation: http://goo.gl/LDhRwm
@@ -15,7 +15,7 @@ dependencies:
 
 name: game_parking
 version: 2.0.1
-author: Dzenan Ridjanovic <dzenanr@gmail.com>
+
 description: Game Parking is a version of the Rush Hour game. EDNetCore is a domain model framework.
 homepage: http://ondart.me/
 documentation: http://goo.gl/LDhRwm

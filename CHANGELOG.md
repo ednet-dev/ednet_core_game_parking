@@ -1,4 +1,4 @@
-## Version history of [game_parking](https://github.com/dzenanr/game_parking)
+## Version history of [game_parking](https://github.com/ednet-dev/game_parking)
 
 based on [Semantic Versioning](http://semver.org/)
 
