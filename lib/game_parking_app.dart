@@ -1,4 +1,3 @@
-
 /*
 http://opensource.org/licenses/
 
@@ -39,7 +38,3 @@ import 'dart:async';
 import 'package:ednet_core/ednet_core.dart';
 
 import 'package:game_parking/game_parking.dart';
-
-part 'app/home/board.dart';
-part 'app/home/dash.dart';
-part 'app/home/menu.dart';

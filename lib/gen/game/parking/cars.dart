@@ -14,10 +14,10 @@ abstract class CarGen extends Entity<Car> {
     setParent("parking", parking); 
   } 
  
-  Brand get brand => getParent("brand"); 
+  Brand get brand => getParent("brand") as Brand;
   void set brand(Brand p) { setParent("brand", p); }
   
-  Parking get parking => getParent("parking"); 
+  Parking get parking => getParent("parking") as Parking;
   void set parking(Parking p) { setParent("parking", p); }
   
   String get orientation => getAttribute("orientation"); 
