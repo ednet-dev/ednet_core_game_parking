@@ -17,7 +17,7 @@ class Brands extends BrandsGen {
   
   // specific code from here
 
-  Brand getBrand(String name) {
+  Brand? getBrand(String name) {
     return singleWhereAttributeId("name", name);
   }
 
