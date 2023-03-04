@@ -4,7 +4,7 @@ part of game_parking;
 
 class Area extends AreaGen {
 
-  Area(Concept concept) : super(concept);
+  Area(Concept concept) : super(concept!);
 
   Area.withId(Concept concept, String name) :
     super.withId(concept, name);
@@ -13,7 +13,7 @@ class Area extends AreaGen {
 
 class Areas extends AreasGen {
 
-  Areas(Concept concept) : super(concept);
+  Areas(Concept concept) : super(concept!);
 
   // specific code from here
   

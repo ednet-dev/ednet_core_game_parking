@@ -38,7 +38,7 @@ abstract class AreasGen extends Entities<Area> {
     this.concept = concept;
   }
 
-  Areas newEntities() => new Areas(concept);
+  Areas newEntities() => new Areas(concept!);
 
-  Area newEntity() => new Area(concept);
+  Area newEntity() => new Area(concept!);
 }

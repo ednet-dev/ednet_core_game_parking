@@ -3,7 +3,7 @@ part of game_parking;
 // data/game/parking/cars.dart
 
 class Car extends CarGen {
-  Car(Concept concept) : super(concept);
+  Car(Concept concept) : super(concept!);
 
   Car.withId(Concept concept, Brand brand, Parking parking)
       : super.withId(concept, brand, parking);
@@ -102,7 +102,7 @@ class Car extends CarGen {
 }
 
 class Cars extends CarsGen {
-  Cars(Concept concept) : super(concept);
+  Cars(Concept concept) : super(concept!);
 
   // specific code from here
 

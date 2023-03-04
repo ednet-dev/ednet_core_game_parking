@@ -45,7 +45,7 @@ abstract class ParkingsGen extends Entities<Parking> {
     this.concept = concept;
   }
 
-  Parkings newEntities() => new Parkings(concept);
+  Parkings newEntities() => new Parkings(concept!);
 
-  Parking newEntity() => new Parking(concept);
+  Parking newEntity() => new Parking(concept!);
 }

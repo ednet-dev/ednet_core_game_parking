@@ -74,7 +74,7 @@ abstract class BrandsGen extends Entities<Brand> {
     this.concept = concept;
   }
 
-  Brands newEntities() => new Brands(concept);
+  Brands newEntities() => new Brands(concept!);
 
-  Brand newEntity() => new Brand(concept);
+  Brand newEntity() => new Brand(concept!);
 }

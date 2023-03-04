@@ -38,8 +38,8 @@ abstract class CarGen extends Entity<Car> {
   bool get selected => getAttribute("selected"); 
   void set selected(bool a) { setAttribute("selected", a); }
   
-  Car newEntity() => new Car(concept); 
-  Cars newEntities() => new Cars(concept); 
+  Car newEntity() => new Car(concept!);
+  Cars newEntities() => new Cars(concept!);
   
 } 
  
@@ -49,8 +49,8 @@ abstract class CarsGen extends Entities<Car> {
     this.concept = concept;
   }
  
-  Cars newEntities() => new Cars(concept); 
-  Car newEntity() => new Car(concept); 
+  Cars newEntities() => new Cars(concept!);
+  Car newEntity() => new Car(concept!);
   
 }
 

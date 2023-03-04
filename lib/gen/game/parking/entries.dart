@@ -9,11 +9,11 @@ class ParkingEntries extends ModelEntries {
     var entries = new Map<String, Entities>();
     var concept;
     concept = model.concepts.singleWhereCode("Area");
-    entries["Area"] = new Areas(concept);
+    entries["Area"] = new Areas(concept!);
     concept = model.concepts.singleWhereCode("Brand");
-    entries["Brand"] = new Brands(concept);
+    entries["Brand"] = new Brands(concept!);
     concept = model.concepts.singleWhereCode("Parking");
-    entries["Parking"] = new Parkings(concept);
+    entries["Parking"] = new Parkings(concept!);
     return entries;
   }
 
@@ -23,16 +23,16 @@ class ParkingEntries extends ModelEntries {
       throw new ConceptError("${conceptCode} concept does not exist.");
     }
     if (concept.code == "Area") {
-      return new Areas(concept);
+      return new Areas(concept!);
     }
     if (concept.code == "Brand") {
-      return new Brands(concept);
+      return new Brands(concept!);
     }
     if (concept.code == "Parking") {
-      return new Parkings(concept);
+      return new Parkings(concept!);
     }
     if (concept.code == "Car") {
-      return new Cars(concept);
+      return new Cars(concept!);
     }
     return null;
   }
@@ -43,16 +43,16 @@ class ParkingEntries extends ModelEntries {
       throw new ConceptError("${conceptCode} concept does not exist.");
     }
     if (concept.code == "Area") {
-      return new Area(concept);
+      return new Area(concept!);
     }
     if (concept.code == "Brand") {
-      return new Brand(concept);
+      return new Brand(concept!);
     }
     if (concept.code == "Parking") {
-      return new Parking(concept);
+      return new Parking(concept!);
     }
     if (concept.code == "Car") {
-      return new Car(concept);
+      return new Car(concept!);
     }
     return null;
   }

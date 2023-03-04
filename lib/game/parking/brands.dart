@@ -4,7 +4,7 @@ part of game_parking;
 
 class Brand extends BrandGen {
 
-  Brand(Concept concept) : super(concept);
+  Brand(Concept concept) : super(concept!);
 
   Brand.withId(Concept concept, String name) :
     super.withId(concept, name);
@@ -13,7 +13,7 @@ class Brand extends BrandGen {
 
 class Brands extends BrandsGen {
 
-  Brands(Concept concept) : super(concept);
+  Brands(Concept concept) : super(concept!);
   
   // specific code from here
 
