@@ -5,52 +5,52 @@ part of game_parking;
 var gameParkingModelJson = r'''
 {
     "width":990,
-    "lines":[
+    "relations":[
         {
-            "box2box1Max":"1",
-            "box1Name":"Area",
-            "box1box2Min":"0",
-            "box2Name":"Parking",
-            "box1box2Id":false,
-            "box2box1Id":true,
-            "box2box1Name":"area",
-            "box1box2Max":"N",
-            "box1box2Name":"parkings",
-            "box2box1Min":"1",
+            "toFromMax":"1",
+            "from":"Area",
+            "fromToMin":"0",
+            "to":"Parking",
+            "fromToId":false,
+            "toFromId":true,
+            "toFromName":"area",
+            "fromToMax":"N",
+            "fromToName":"parkings",
+            "toFromMin":"1",
             "category":"relationship",
             "internal":false
         },
         {
-            "box2box1Max":"1",
-            "box1Name":"Brand",
-            "box1box2Min":"0",
-            "box2Name":"Car",
-            "box1box2Id":false,
-            "box2box1Id":true,
-            "box2box1Name":"brand",
-            "box1box2Max":"N",
-            "box1box2Name":"cars",
-            "box2box1Min":"1",
+            "toFromMax":"1",
+            "from":"Brand",
+            "fromToMin":"0",
+            "to":"Car",
+            "fromToId":false,
+            "toFromId":true,
+            "toFromName":"brand",
+            "fromToMax":"N",
+            "fromToName":"cars",
+            "toFromMin":"1",
             "category":"relationship",
             "internal":false
         },
         {
-            "box2box1Max":"1",
-            "box1Name":"Parking",
-            "box1box2Min":"0",
-            "box2Name":"Car",
-            "box1box2Id":false,
-            "box2box1Id":true,
-            "box2box1Name":"parking",
-            "box1box2Max":"N",
-            "box1box2Name":"cars",
-            "box2box1Min":"1",
+            "toFromMax":"1",
+            "from":"Parking",
+            "fromToMin":"0",
+            "to":"Car",
+            "fromToId":false,
+            "toFromId":true,
+            "toFromName":"parking",
+            "fromToMax":"N",
+            "fromToName":"cars",
+            "toFromMin":"1",
             "category":"relationship",
             "internal":true
         }
     ],
     "height":580,
-    "boxes":[
+    "concepts":[
         {
             "width":80,
             "entry":true,
@@ -58,7 +58,7 @@ var gameParkingModelJson = r'''
             "x":74,
             "height":80,
             "y":53,
-            "items":[
+            "attributes":[
                 {
                     "sequence":10,
                     "name":"name",
@@ -77,7 +77,7 @@ var gameParkingModelJson = r'''
             "x":205,
             "height":140,
             "y":53,
-            "items":[
+            "attributes":[
                 {
                     "sequence":10,
                     "name":"name",
@@ -150,7 +150,7 @@ var gameParkingModelJson = r'''
             "x":69,
             "height":80,
             "y":249,
-            "items":[
+            "attributes":[
                 {
                     "sequence":10,
                     "name":"number",
@@ -169,7 +169,7 @@ var gameParkingModelJson = r'''
             "x":354,
             "height":120,
             "y":302,
-            "items":[
+            "attributes":[
                 {
                     "sequence":10,
                     "name":"orientation",
